@@ -53,6 +53,7 @@ See how to configure the [Alternative out SMTP].
 - `out_smtp_host`: alternative SMTP hostname.
 - `out_smtp_username`: alternative SMTP username.
 - `out_smtp_password`: alternative SMTP password.
+- `out_smtp_port`: alternative SMTP server port (default: 587).
 
 ### DKIM signing
 
