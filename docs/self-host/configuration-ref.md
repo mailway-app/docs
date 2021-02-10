@@ -59,6 +59,11 @@ See how to configure the [Alternative out SMTP].
 
 - `out_dkim_path`: path of the DKIM private key, in PEM format.
 
+## Forwarding
+
+- `forwarding_loop_detection_count`: number of loops allowed (default: 25).
+- `forwarding_rate_limiting_count`: number of emails allowed per hour (default: 100).
+
 ## Spam filtering
 
 - `spam_filter`: Enable the spam filtering. Possible values: `true`, `false`.
