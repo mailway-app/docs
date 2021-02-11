@@ -54,4 +54,15 @@ $ mailway setup
 
 Once the setup is completed, the service will automatically start.
 
+## Installation with Docker
+
+```sh
+docker run \
+    -p 25:25 -p 80:80 -p 443:443 \
+    -v /etc/mailway:/etc/mailway \
+    mailway/mailway
+```
+
+It will run the Mailway setup automatically and persistent the configuration in `/etc/mailway` on the host.
+
 [components]: /self-host/components/
