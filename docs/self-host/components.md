@@ -17,7 +17,15 @@ nav_order: 2
 
 ---
 
+![Components architecture overview](/assets/images/overview.svg)
+
 The Mailway email service is divided into multiple components:
+
+## frontline
+
+The frontline service is exposing the public email and HTTPS server. It's NGINX compiled with the email module.
+
+Sources on GitHub: [frontline].
 
 ## auth
 
@@ -42,7 +50,7 @@ Sources on GitHub: [forwarding].
 For logging and debugging purposes, the email's metadata (to, from, time, etc)
 will be recorded into a database, namely the [maildb] service.
 
-The service exposes a public API (protected by JWT tokens) that allow the dashboard to query the logs.
+The service exposes a public API via the frontline (protected by JWT tokens) that allow the dashboard to query the logs.
 
 Sources on GitHub: [maildb].
 
@@ -58,6 +66,7 @@ As a fallback the email will be sent to another smtp server. See [Alternative ou
 Sources on GitHub: [mailout].
 
 [auth]: https://github.com/mailway-app/auth
+[frontline]: https://github.com/mailway-app/frontline
 [maildb]: https://github.com/mailway-app/maildb
 [mailout]: https://github.com/mailway-app/mailout
 [forwarding]: https://github.com/mailway-app/forwarding
