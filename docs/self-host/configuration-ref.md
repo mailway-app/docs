@@ -66,9 +66,13 @@ See how to configure the [Alternative out SMTP].
 
 ## Spam filtering
 
-- `spam_filter`: Enable the spam filtering. Possible values: `true`, `false`.
+- `spam_filter`: enable the spam filtering. Possible values: `true`, `false`.
 
 This requires configuring a spam filter, not yet documented.
+
+## Mail database
+
+- `maildb_db_path`: Mail database location on disk (default: $CWD/maildb.db)
 
 [config]: https://github.com/mailway-app/config
 [components]: /self-host/components/
