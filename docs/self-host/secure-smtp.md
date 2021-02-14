@@ -3,7 +3,7 @@ layout: page
 title: Secure SMTP
 parent: Self Host
 permalink: /self-host/secure-smtp/
-nav_order: 3
+nav_order: 4
 ---
 
 # Secure SMTP

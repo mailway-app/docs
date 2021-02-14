@@ -3,7 +3,7 @@ layout: page
 title: Alternative out SMTP
 parent: Self Host
 permalink: /self-host/alt-out-smtp/
-nav_order: 4
+nav_order: 5
 ---
 
 # Alternative out SMTP

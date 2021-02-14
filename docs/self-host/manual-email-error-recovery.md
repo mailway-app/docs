@@ -3,7 +3,7 @@ layout: page
 title: Manual Email Error Recovery
 parent: Self Host
 permalink: /self-host/manual-email-error-recovery/
-nav_order: 5
+nav_order: 6
 ---
 
 # Manual Email Error Recovery

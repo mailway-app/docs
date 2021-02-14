@@ -3,7 +3,7 @@ layout: page
 title: How to debug
 parent: Self Host
 permalink: /self-host/how-to-debug/
-nav_order: 6
+nav_order: 7
 ---
 
 # How to debug

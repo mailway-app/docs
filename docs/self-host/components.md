@@ -3,7 +3,7 @@ layout: page
 title: Components
 parent: Self Host
 permalink: /self-host/components/
-nav_order: 2
+nav_order: 3
 ---
 
 # Components

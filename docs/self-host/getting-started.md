@@ -60,6 +60,7 @@ Once the setup is completed, the service will automatically start.
 docker run \
     -p 25:25 -p 80:80 -p 443:443 \
     -v /etc/mailway:/etc/mailway \
+    -v /var/log/mailway:/var/log/journal \
     mailway/mailway
 ```
 
