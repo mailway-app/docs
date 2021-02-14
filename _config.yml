@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Mailway
 email: hello@mailway.app
-description: ""
+description: Mailway the new way for emails
 baseurl: ""
 url: "https://docs.mailway.app"
-github_username:  mailway
+github_username: mailway-app
 
 # Build settings
 markdown: kramdown
@@ -40,7 +40,7 @@ plugins:
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 
-search_enabled: false
+search_enabled: true
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
