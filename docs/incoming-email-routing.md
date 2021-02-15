@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Incoming Email Routing
-nav_order: 3
+nav_order: 2
 permalink: /incoming-email-routing/
 ---
 

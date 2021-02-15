@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reliability
-parent: Email Service
+parent: Hosted Email Service
 permalink: /email-service/reliability/
 ---
 
