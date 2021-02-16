@@ -1,12 +1,12 @@
 ---
 layout: page
-title: How to use Mailway with Cloudflare
+title: How to receive emails with Cloudflare
 parent: Tutorials
-permalink: /tutorials/use-mailway-with-cloudflare/
+permalink: /tutorials/receive-emails-with-cloudflare/
 nav_order: 1
 ---
 
-# How to use Mailway with Cloudflare
+# How to receive emails with Cloudflare
 {: .no_toc }
 
 ## Table of contents

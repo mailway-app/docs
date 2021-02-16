@@ -32,6 +32,8 @@ Then restart the service:
 mailway restart
 ```
 
+It's recommended to encrypt traffic to the port 25 as well by uncommenting the comments in the first block.
+
 ## Confirming that it works
 
 ```sh
