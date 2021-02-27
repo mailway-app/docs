@@ -3,7 +3,7 @@ layout: page
 title: How to receive emails with Cloudflare
 parent: Guides
 permalink: /guides/receive-emails-with-cloudflare/
-nav_order: 1
+nav_order: 4
 ---
 
 # How to receive emails with Cloudflare

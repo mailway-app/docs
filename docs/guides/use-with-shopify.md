@@ -3,7 +3,7 @@ layout: page
 title: Use with Shopify
 parent: Guides
 permalink: /guides/use-with-Shopify/
-nav_order: 2
+nav_order: 3
 ---
 
 # How to use Mailway with Shopify
