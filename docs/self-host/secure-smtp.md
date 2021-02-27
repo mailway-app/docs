@@ -25,7 +25,7 @@ mailway setup-secure-smtp
 
 ## Configure the email service
 
-In `/etc/mailway/frontline/nginx.conf` uncomment the bock that starts with `listen 0.0.0.0:465 ssl;`.
+In `/etc/mailway/frontline/nginx.conf` uncomment the bock that starts with `listen 0.0.0.0:587 ssl;`.
 
 Then restart the service:
 ```sh
@@ -37,7 +37,7 @@ It's recommended to encrypt traffic to the port 25 as well by uncommenting the c
 ## Confirming that it works
 
 ```sh
-openssl s_client -connect $DOMAIN:465
+openssl s_client -connect $DOMAIN:587
 ```
 
 Replace `$DOMAIN` with the name of the domain you configured to receive emails.

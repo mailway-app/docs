@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Use with Shopify
-parent: Tutorials
-permalink: /tutorials/use-with-Shopify/
+parent: Guides
+permalink: /guides/use-with-Shopify/
 nav_order: 2
 ---
 

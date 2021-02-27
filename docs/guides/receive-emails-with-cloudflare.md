@@ -1,8 +1,8 @@
 ---
 layout: page
 title: How to receive emails with Cloudflare
-parent: Tutorials
-permalink: /tutorials/receive-emails-with-cloudflare/
+parent: Guides
+permalink: /guides/receive-emails-with-cloudflare/
 nav_order: 1
 ---
 
