@@ -34,8 +34,8 @@ Matches all emails.
 
 ### Exact match
 The email can be matched against a field, currently they are:
-- *from*: from email address
-- *to*: To email address
+- *from*: email sender
+- *to*: email recipient
 
 The field's value must be strictly equal to the value you provided in order to match.
 
@@ -54,3 +54,9 @@ The email will be reject with a permanent failure code. This is useful to block 
 
 ### Forward
 The email will be fowarded to the provided email address(es).
+
+### Webhook
+Information about the email will be sent to the provided endpoint.
+Find information about [webhooks]
+
+[webhooks]: /webhooks/
