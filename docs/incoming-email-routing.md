@@ -36,6 +36,7 @@ Matches all emails.
 The email can be matched against a field, currently they are:
 - *from*: email sender
 - *to*: email recipient
+- *subject*: email subject
 
 The field's value must be strictly equal to the value you provided in order to match.
 
@@ -43,6 +44,7 @@ The field's value must be strictly equal to the value you provided in order to m
 The email can be matched against a field, currently they are:
 - *from*: from email address
 - *to*: To email address
+- *subject*: email subject
 
 The provided value is a pattern, which allow to compare against one part of the field's value.
 For instance `*@example.com` matches: `hi@example.com` or `john.doe@example.com`.

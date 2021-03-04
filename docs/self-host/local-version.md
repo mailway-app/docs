@@ -80,10 +80,10 @@ Rules are executed in order and a rule can specifiy multiple matches and/or acti
 Possible conditions:
 - `all`: matches everything
 - `literal`: exact match against a field of the email.
-    - `field`: `from` (email sender) or `to` (email recipient)
+    - `field`: `from` (email sender), `to` (email recipient) or `subject` (email subject)
     - `value`: value to match against
 - `regex`: pattern match against a field of the email.
-    - `field`: `from` (email sender) or `to` (email recipient)
+    - `field`: `from` (email sender), `to` (email recipient) or `subject` (email subject)
     - `value`: value to match against
 - `timeAfter`: matches after the specific time passed; timestamp in ms.
 
