@@ -18,3 +18,4 @@ nav_order: 1
 ---
 
 - [Mailway - 开源的邮件转发服务](https://www.httpsmail.com/mailway.html)
+- [Mailway - How I reduced the amount of spam sent to me](https://sauleau.com/notes/how-i-reduced-spam-received.html)
