@@ -25,7 +25,7 @@ On your Slack instance you can either: create a new channel or use an existing o
 
 ## New channel
 
-Create a new channel and click on **Forward email to this channel**.
+Create a new channel and click on **Forward emails to this channel**.
 
 ![New empty channel](/assets/images/slack/new-channel.jpg)
 
