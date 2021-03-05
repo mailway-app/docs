@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Forward email to Slack channel
+title: Forward emails to a Slack channel
 parent: Guides
-permalink: /guides/forward-email-to-slack-channel/
+permalink: /guides/forward-emails-to-slack-channel/
 nav_order: 2
 ---
 
-# Forward email to Slack channel
+# Forward emails to a Slack channel
 {: .no_toc }
 
 ## Table of contents
