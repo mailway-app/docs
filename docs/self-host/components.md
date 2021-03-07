@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Components
+title: Component Architecture
 parent: Self Host
 permalink: /self-host/components/
-nav_order: 3
+nav_order: 2
 ---
 
 # Components

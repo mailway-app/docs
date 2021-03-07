@@ -3,7 +3,7 @@ layout: page
 title: Update instance
 parent: Self Host
 permalink: /self-host/update/
-nav_order: 2
+nav_order: 3
 ---
 
 # Update instance

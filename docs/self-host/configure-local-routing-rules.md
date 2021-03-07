@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Local version
+title: Configure local routing rules
 parent: Self Host
-permalink: /self-host/local-version/
-nav_order: -1
-nav_exclude: true
+permalink: /self-host/configure-local-routing-rules/
+nav_order: 9
 ---
 
-# Local Version
+# Configure local routing rules
 {: .no_toc }
 
 ## Table of contents
@@ -18,54 +17,7 @@ nav_exclude: true
 
 ---
 
-## Supported platform
-
-Currently only Ubuntu 20.04 with systemd is officially supported.
-
-## Installation with systemd
-
-### Add the Debian repository
-
-Add the repository:
-```bash
-$ curl -s https://apt.mailway.app/ubuntu/KEY.gpg | sudo apt-key add -
-$ sudo curl -s -o /etc/apt/sources.list.d/mailway.list https://apt.mailway.app/ubuntu/mailway.list
-$ sudo apt update
-```
-
-### Install Mailway
-
-```bash
-$ sudo apt install mailway
-```
-
-This will install Mailway and all its [components].
-
-### Setup
-
-```bash
-$ mailway setup --local
-```
-
-## Installation with Docker
-
-```sh
-docker run \
-    -p 25:25 \
-    -v /etc/mailway:/etc/mailway \
-    -v /var/log/mailway:/var/log/journal \
-    -e MW_HOSTNAME=example.com \
-    -e MW_EMAIL=youremail@example.com \
-    mailway/mailway-local
-```
-
-Environment variables:
-- `MW_HOSTNAME`: email server hostname (example: mx.example.com).
-- `MW_EMAIL`: email used for TLS certificates.
-
-## Configuration
-
-### Email routing for a domain
+## Email routing for a domain
 
 Routing configuration for a domain is stored at `/etc/mailway/domain.d/$DOMAIN.yaml`, where `$DOMAIN` is the name of your domain.
 
@@ -75,7 +27,7 @@ Rules are devided into two parts:
 
 Rules are executed in order and a rule can specifiy multiple matches and/or actions.
 
-#### Match
+### Match
 
 Possible conditions:
 - `all`: matches everything
@@ -87,7 +39,7 @@ Possible conditions:
     - `value`: value to match against
 - `timeAfter`: matches after the specific time passed; timestamp in ms.
 
-#### Action
+### Action
 
 Possible conditions:
 - `drop`: ignore the email

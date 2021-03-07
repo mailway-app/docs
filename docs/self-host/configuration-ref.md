@@ -4,6 +4,7 @@ title: Configuration Reference
 parent: Self Host
 permalink: /self-host/configuration-reference/
 nav_order: 8
+nav_exclude: true
 ---
 
 # Configuration Reference
