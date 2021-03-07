@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mailway
-email: hello@mailway.app
+email: ehlo@mailway.app
 description: Mailway the new way for emails
 baseurl: ""
 url: "https://docs.mailway.app"
