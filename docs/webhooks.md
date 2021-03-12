@@ -21,6 +21,7 @@ The webhook is called with the HTTP headers:
 - `Mw-Domain`: name of the domain that received the email
 - `Mw-Id`: ID of the email
 - `Mw-Signature`: HMAC SHA-256 signature using the secret token (not implemented yet)
+- `Mw-Date`: Email reception date ([Unix time])
 
 The webhook is called with the JSON body:
 - `headers`: email headers
@@ -37,6 +38,7 @@ Example request:
 > Mw-Domain: example.com
 > Mw-Id: 84784da6-61f0-4c47-b4bb-9f0d5a2964a3
 > Mw-Signature: signature
+> Mw-Date: 1615571641
 
 {
   "headers": {
@@ -78,3 +80,4 @@ Hi, this is a test email.
 ```
 
 [dashboard]: https://dash.mailway.app
+[Unix time]: https://en.wikipedia.org/wiki/Unix_time
