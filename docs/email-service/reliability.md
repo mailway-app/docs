@@ -29,14 +29,14 @@ Such a setup distributes the load between the two servers evenly and can tolerat
   <img src="/assets/images/email-service/fallback.svg" alt="Fallback to second server"/>
 </div>
 
-If the first server fails the second will receive the incoming emails, while the first server is recovering.
+If the first server fails, the second will receive the incoming emails while the first server is recovering.
 
 ## Email processing
 
 While having two mail servers for each makes the service considerably more reliable, we still need to ensure that no emails are lost in the event of a failure during its processing.
 
-When an email is received it's streamed to the disk and will be kept during the processing, until it completed successfully.
-Note that we don't store the email any longer that necessary.
+When an email is received, it's streamed to the disk and will be kept during the processing, until it has completed successfully.
+Note that we don't store the email any longer than necessary.
 
 If the processing fails, the email will be recovered from the temporary copy on disk and the processing continues.
 
